@@ -1,0 +1,138 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+background-color: blueviolet;
+border-radius: 25px;
+border:none;
+line-height: 25px;
+color: white;
+padding: 1px 25px;
+font-size: 15px;
+cursor: pointer;
+}
+
+.img-logo{
+    width: 568px;
+    height: 500px;  
+   padding: 75px 95px;
+   display: inline-block;
+}
+header{
+    margin: 50px 50px; 
+}
+.link-head{
+    border: 30px;
+    background-color: white;
+    color: rgb(180, 178, 178);
+    font-size: 15px;
+    font-weight: 25px;
+    cursor: pointer;
+    margin-right: 23px;
+    
+}
+section{
+    display:inline-block;
+    position: absolute;
+    padding: 75px 0 0 0;
+}
+
+h1{
+   
+font-size: 50px;
+font-weight: 35px;
+
+
+}
+h2{
+       
+font-size: 30px;
+
+
+}
+
+p{
+   
+font-size: 15px;
+font-weight:1000px;
+width: 515px;
+color: rgb(176, 177, 177);
+padding-top: 40px;
+}
+
+.entrar{
+    background-color: rgb(30, 255, 0);
+    border: none;
+    border-radius: 45px;
+    font-size: 15px;
+padding: 3px 25px;
+cursor: pointer;
+margin-top: 35px;
+}
+@media screen and ( max-width: 600px){
+    header{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    h1{
+        color: rgba(81, 81, 81, 1);
+        font-size: 90px;
+        font-weight:795;
+        width: 555px;
+       
+       
+    }
+    h2{
+        color: rgba(81, 81, 81, 1);
+        font-size: 40px;
+        font-weight: 450;
+    text-align: center;
+        
+        
+    }
+    section{
+        
+        position: absolute;
+        display: block;
+    
+       
+        
+        
+    
+        
+    }
+   
+    
+    .img-logo{
+       height: 50vh;
+        width: 60vh;
+        position: static;
+        display: block;
+        padding: 95px 35px 20px 35px;
+
+    }
+    
+    
+    .entrar{
+        background-color: rgb(30, 255, 0);
+        border: none;
+        border-radius: 45px;
+        font-size: 20px;
+    padding: 15px 75px;
+    cursor: pointer;
+    
+        
+    }
+    main{
+        text-align: center;
+    }
+   
+
+    }
+  
+    
